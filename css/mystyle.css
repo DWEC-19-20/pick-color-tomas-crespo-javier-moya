@@ -1,14 +1,53 @@
 body{
-margin-left: 7%;
-margin-right: 7%; 
+margin: 10%;
 }
 
 #R{
+    
     color: red;
+    display: inline-block;
+}
+#r{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 #G{
-    color: green;
+    color: rgb(0, 145, 0);
+    display: inline-block;
+}
+#g{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 #B{
+    display: inline-block;
     color: blue;
+}
+#b{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#enviar{
+    width: 100px;
+    height: 50px;
+    margin-top: 2%;
+    color: black;
+   border-style: double;
+   border-color: black;
+}
+#enviar:hover{
+    margin-top: 2%;
+    color: blue;
+    
+    
+}
+
+#H{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.39);
+}
+#hex{
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
