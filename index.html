@@ -6,39 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-    <title>Convrsor</title>
+    <title>Conversor</title>
 </head>
 
 <body>
-    <h1 id="R">Red</h1>
-    <label for="r"></label>
-    <input name="r" id="r"></input>
-    <h1 id="G">Green</h1>
-    <label for="g"></label>
-    <input name="g" id="g"></input>
-    <h1 id="B">Blue</h1>
-    <label for="b"></label>
-    <input name="b" id="b"></input>
-    <button name="enviar" id="enviar">Magic butoon</button>
-    <br> <br>
-    <h1 id="H">Hexadecimal</h1>
-    <label for="hex"></label>
-    <input name="hex" id="hex" readonly></input>
-    <br> <br>
+    <div class="caja">
+        <h1 id="R">Red</h1>
+        <label for="r"></label>
+        <input maxlength="3" name="r" id="r"></input>
+        <h1 id="G">Green</h1>
+        <label for="g"></label>
+        <input maxlength="3" name="g" id="g"></input>
+        <h1 id="B">Blue</h1>
 
-    <br> <br>
-    <h1>----------------------------------</h1>
-    <br> <br>
-    <h1 id="H">Hexadecimal</h1>
-    <label for="h"></label>
-    <input name="h" id="hex"></input>
-    <br> <br>
-    <h1 id="R">RGB</h1>
-    <label for="rgbHex"></label>
-    <input name="rgbHex" id="r"readonly></input>
-    <button name="enviar2" id="enviar">Magic butoon</button>
-
+        <label for="b"></label>
+        <input maxlength="3" name="b" id="b"></input>
+        <br>
+        <button class="enviar" name="enviar" id="enviar">Magic button</button>
+        <br> <br>
+        <h1>Hexadecimal</h1>
+        <label for="hex"></label>
+        <input name="hex" id="hex" readonly></input>
+        
+        <div class="caja-color1"></div>
+        <br> <br>
+    </div>
+    <br><br>
+    <div class="caja">
+        <br>
+        <h1>Hexadecimal</h1>
+        <label for="h"></label>
+        <input maxlength="8" name="h" id="h" value="0x"></input>
+        <p>Escribe el valor hexadecimal después del '0x'</p>
+        <button class="enviar" name="enviar2" id="enviar2">Magic button</button>
+        <br> <br>
+        <h1 id="R">RGB</h1>
+        <label for="rgbHex"></label>
+        <input name="rgbHex" id="rgbHex" readonly></input>
+        <div class="caja-color2"></div>
+        <br> <br>
+    </div>
 </body>
+<script src="js/datos.js"></script>
 <script src="js/rgb.js"></script>
+
 
 </html>
